@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'default' => 'mysql',
+    'default' => 'sqlsrv',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,11 +78,11 @@ return [
 
         'sqlsrv' => [
             'driver'   => 'sqlsrv',
-            'host'     => 'localhost',
-            'port'     => '',
-            'database' => 'database',
-            'username' => 'root',
-            'password' => '',
+            'host'     => 'checkpadcms.database.windows.net', 
+            'port'     => '1433',
+            'database' => 'checkpad_cms',
+            'username' => 'dDoom',
+            'password' => 'PegasX13',
             'prefix'   => '',
         ],
 
